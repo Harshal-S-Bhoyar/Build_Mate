@@ -1,0 +1,53 @@
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Environment & Secrets
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# Node / Frontend Build
+node_modules/
+.next/
+dist/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# .NET / Backend Build
+bin/
+obj/
+[Aa]pp_Data/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.sln.docstates
+.vs/
+.idea/
+.vscode/
+
+# Testing & Coverage
+TestResults/
+coverage/
+*.lcov
+test-results/
+playwright-report/
+blob-report/
+
+# Tools & Knowledge Graphs
+.code-review-graph/
+graphify-out/
+/archive
+
+# Temporary files
+*.tmp
+*.log
