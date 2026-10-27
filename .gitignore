@@ -35,6 +35,14 @@ obj/
 .idea/
 .vscode/
 
+# .NET secrets & certs (connection strings live here)
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+local.settings.json
+*.pfx
+*.snk
+
 # Testing & Coverage
 TestResults/
 coverage/
