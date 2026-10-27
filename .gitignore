@@ -50,4 +50,4 @@ graphify-out/
 
 # Temporary files
 *.tmp
-*.log
+*.log.gemini/
